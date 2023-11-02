@@ -1,0 +1,857 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+
+  body{
+    margin: 0;
+    background-color:#FAFAFA;
+    flex-direction: column;
+    }
+    button{
+        cursor: pointer;
+    }
+    header{
+        width: 320px;
+        height: 64px;
+        background-color:#F8F5FF;
+        display: flex;
+        flex-direction:row ;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 32px;
+    }
+     header button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    header img{
+        margin: 12px;
+    }
+    .menu{
+        width: 24px;
+        height: 18px;
+    }
+    .sistems{
+        width: 58.48px;
+        height: 32px;
+    }
+    .search{
+        width: 18px;
+        height: 18px;
+    }
+    .projetos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 13px;
+      margin-left: 7px;
+    }
+    .projetos img{
+        width: 290px;
+        height: 308px; 
+        margin-left: 10px;
+    }
+      
+    .projetos__fundo{
+        position: relative;
+   
+    }
+    .projetos__conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-self: start;
+        position: absolute;
+        justify-content: flex-start;
+        margin-left: 20px;
+        margin-bottom:40px;
+        
+
+    }
+    .projetos__conteudo h1{
+        font-family:"Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 28.8px;
+        color: black;
+        padding:1px;
+        margin: 0;
+    }
+    .projetos__conteudo p{
+        width: 201px;
+        height: 100px;
+        font-family: "Opens Sans",sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19.6px;
+        letter-spacing: 1%;
+        color: black;
+    }
+    .projetos__conteudo button{
+        width: 174px;
+        height: 44px;
+        background-color:#845EF7;
+        color:#ffffff;
+        font-family: "Montserrat",sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        align-items: center; 
+        border: none;
+        border-radius: 8px;
+        gap: 10px;
+        
+    }
+    .sobre{
+       display: flex;
+       flex-direction: column;
+       color: #FAFAFA;
+       
+    }
+    .sobre h2{
+        width: 158px;
+        height: 38px;
+        margin-left: 15px;
+        margin-top:30pxpx;
+        font-family: "Montserrt",sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38.4px;
+        color: black;
+    }
+    .sobre p{
+        width: 290px;
+        height: 400px;
+        margin-top: 1px;
+        margin-left: 15px;
+        font-family:"Open Sans",sans-serif;
+        font-weight:400;
+        font-size: 14px;
+        line-height: 25.2px;
+        letter-spacing: 1%;
+        color: black;
+        }
+        .arquiteto{
+            display: flex;
+            flex-direction: column;
+            padding-top: 0px;
+        }
+        .arquiteto__imagem{
+            width: 290px;
+            height: 200px;
+            margin-left: 15px;
+            position: relative;
+        }
+        .arquiteto__conteudo{
+            width: 290px;
+            height: 225px;
+            margin-left: 15px;
+            position:absolute;
+            margin-top: 150px;
+            background-color:white ;
+            border: solid 1px #D3D7DB;
+            border-radius: 24px;
+        }
+        .arquiteto__conteudo p{
+           width: 260px;
+           height: 100px;
+           font-family: "Open Sans",sans-serif;
+           font-weight: 700;
+           font-size: 14px;
+           line-height: 25.2px;
+           letter-spacing: 1%;
+           color: black; 
+           margin-left: 30px;
+        }
+        .arquiteto button{
+            width: 260px;
+            height: 44px;
+            border-radius: 8px;
+            padding: 13px 32px 13px 32px;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 13px;
+            background-color: transparent;
+            border: solid 1px  #845EF7;
+            font-family: "Montserrat",sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            color: #845EF7;
+        }
+        .consultoria{
+            flex-direction: column;
+            margin-top:193px;
+            border-radius: 16px;
+            width: 290px;
+            height: 268px;
+            margin-left: 15px;
+            border: solid 1px  #D3D7DB;
+            padding-bottom: 15px;
+            gap: 10px;
+            color:#ffffff
+        }
+        .consultoria img{
+        width: 58px;
+        height: 64px;
+        margin-left: 15px;
+        margin-top: 14px;
+
+        }
+        .consultoria h2{
+            width: 260px;
+            height: 60px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 25.2px;
+            letter-spacing: 1%;
+            color: black;
+            margin-left: 15px;
+          
+            
+        }
+        .consultoria p {
+            width: 260px;
+            height: 100px;
+            font-family:"Open Sans",sans-serif ;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25.2px;
+            letter-spacing: 1%;
+            padding-top: 1px;
+            margin-left: 15px;
+            color: black;
+        }
+        .serviço-arquiteto{
+            flex-direction: column;
+            margin-top:16px;
+            border-radius: 16px;
+            width: 290px;
+            height: 268px;
+            margin-left: 15px;
+            border: solid 1px  #D3D7DB;
+            padding-bottom: 15px;
+            gap: 10px;
+            color:#ffffff
+        }
+        .serviço-arquiteto img{
+            width: 106px;
+            height: 64px;
+            margin-left: 15px;
+            margin-top: 14px;
+        }
+        .serviço-arquiteto h2{
+            width: 260px;
+            height: 60px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 25.2px;
+            letter-spacing: 1%;
+            color: black;
+            margin-left: 15px;
+          }
+          .serviço-arquiteto p{
+            width: 260px;
+            height: 100px;
+            font-family:"Open Sans",sans-serif ;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25.2px;
+            letter-spacing: 1%;
+            padding-top: 1px;
+            margin-left: 15px;
+            color: black;
+          }
+          .como-trabalhamos{
+            width: 290px;
+            height:767px;
+            margin-left: 15px;
+            color: #ffffff;
+        }
+        .como-trabalhamos h3{
+            font-family:"Montserrat",sans-serif;
+            font-weight: 400; 
+            font-size:32px;
+            line-height: 38.4px;
+            color: black;
+        }
+        .como-trabalhamos img{
+            width: 290px;
+            height: 123px;
+        }
+        .como-trabalhamos__p{
+            font-family:"Open Sans",sans-serif;
+            font-weight:700;
+            font-size:14px;
+            line-height:25.2px;
+            letter-spacing:1%;
+            color:black;
+        }
+        .como-trabalhamos__p2{
+            width: 290px;
+            height:425px;
+            font-family:"Open Sans",sans-serif;
+            font-weight:400;
+            font-size:14px;
+            line-height :25.2px;
+            letter-spacing:1%;
+            color: black;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+         }
+         .como-trabalhamos__botoes{
+           margin-top:-34px;
+            width: 290px;
+            margin-bottom: 0px;
+         }
+         .como-trabalhamos__botoes-mais{
+            width:137px;
+            height:44px;
+            background-color: #845EF7;
+            border: none;
+            border-radius: 8px;
+            padding: 13px 32px 13px 32px;
+            gap:10px;
+            font-family:"Montserrt",sans-serif;
+            font-weight:700;
+            font-size:14px;
+            line-height:18px;
+            align-items: center;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .como-trabalhamos__botoes-contrate{
+            width:137px;
+            height:44px;
+            background-color:white;
+            border: solid 1px #845EF7;
+            border-radius: 8px;
+            gap:10px;
+            font-family:"Montserrt",sans-serif;
+            font-weight:700;
+            font-size:14px;
+            line-height:18px;
+            color: #845EF7;
+            cursor: pointer;
+            margin: 6px;
+            align-items: center;
+            white-space: nowrap;
+            justify-items: flex-start;
+        }
+        .vantagens{
+            width: 320px;
+            height:1449px;
+            display: flex;
+            flex-direction: column;
+            margin-top:1px ;
+            margin-bottom: 0%;
+            color:#FAFAFA ;
+        }
+        .vantagens h4{
+            width:172px;
+            height:38px;
+            margin-top: 0px;
+            margin-left: 15px;
+            font-family:"Montserrat",sans-serif;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 38.4px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+        .vantagens__internet{
+            width: 290px;
+            height: 255px;
+            border-radius: 16px;
+            border: solid 1px #D3D7DB;
+            gap: 10px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 15px;
+            margin-bottom: 20px;
+            margin-top: 1px;
+            color:#ffffff ;
+
+        }
+        .vantagens__internet img{
+           width: 40px;
+           height:38.87;
+           align-self:flex-start ;
+           margin-left: 15px;
+           margin-top: 12px;
+        }
+        .vantagens__internet p{
+            width:204px;
+            height:255px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size:14px;
+            line-height:25.2px;
+            letter-spacing: 1%;
+            color: #000000;
+            gap: 16px;
+            margin-left: 10px;
+        }
+        .vantagens__prancheta{
+            width: 290px;
+            height: 80px;
+            border-radius: 16px;
+            border: solid 1px #D3D7DB;
+            gap: 10px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 15px;
+            margin-bottom: 20px;
+            color:#ffffff
+        }
+        .vantagens__prancheta img{
+           width: 40px;
+           height:38.87;
+           align-self:flex-start ;
+           margin-left: 15px;
+           margin-top: 12px;
+        }
+        .vantagens__prancheta p{
+            width:204px;
+            height:50px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size:14px;
+            line-height:25.2px;
+            letter-spacing: 1%;
+            color: #000000;
+            gap: 16px;
+            margin-left: 10px;
+        }
+        .vantagens__horas{
+            width: 290px;
+            height: 105px;
+            border-radius: 16px;
+            border: solid 1px #D3D7DB;
+            gap: 10px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 15px;
+            margin-bottom: 20px;
+            color:#ffffff
+        }
+        .vantagens__horas img{
+            width: 40px;
+            height:40px;
+            align-self:flex-start ;
+            margin-left: 15px;
+            margin-top: 12px;
+        }
+        .vantagens__horas p{
+            width:204px;
+            height:75px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size:14px;
+            line-height:25.2px;
+            letter-spacing: 1%;
+            color: #000000;
+            gap: 16px;
+            margin-left: 10px;
+        }.vantagens__mapa{
+            width: 290px;
+            height: 80px;
+            border-radius: 16px;
+            border: solid 1px #D3D7DB;
+            gap: 10px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 15px;
+            margin-bottom: 20px;
+            color:#ffffff
+        }
+        .vantagens__mapa img{
+            width: 40px;
+            height:42.47px;
+            align-self:flex-start ;
+            margin-left: 15px;
+            margin-top: 12px;
+        }
+        .vantagens__mapa p{
+            width:204px;
+            height:50px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size:14px;
+            line-height:25.2px;
+            letter-spacing: 1%;
+            color: #000000;
+            gap: 16px;
+            margin-left: 10px;
+        }.vantagens__avião{
+            width: 290px;
+            height: 255px;
+            border-radius: 16px;
+            border: solid 1px #D3D7DB;
+            gap: 10px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 15px;
+            margin-bottom: 20px;
+            color:#ffffff
+        }
+        .vantagens__avião img{
+            width: 40px;
+            height:19.07px;
+            align-self:flex-start ;
+            margin-left: 15px;
+            margin-top: 12px;
+        }
+        .vantagens__avião p{
+            width:204px;
+            height:225px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size:14px;
+            line-height:25.2px;
+            letter-spacing: 1%;
+            color: #000000;
+            gap: 16px;
+            margin-left: 10px;
+        }
+        .vantagens__calendario{
+            width: 290px;
+            height: 230px;
+            border-radius: 16px;
+            border: solid 1px #D3D7DB;
+            gap: 10px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 15px;
+            margin-bottom: 20px;
+            color:#ffffff
+        }
+        .vantagens__calendario img{
+            width: 40px;
+            height:41.6px;
+            align-self:flex-start ;
+            margin-left: 15px;
+            margin-top: 12px;
+        }
+        .vantagens__calendario p{
+            width:204px;
+            height:200px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size:14px;
+            line-height:25.2px;
+            letter-spacing: 1%;
+            color: #000000;
+            gap: 16px;
+            margin-left: 10px;
+        }
+        .vantagens__globo{
+            width: 290px;
+            height: 255px;
+            border-radius: 16px;
+            border: solid 1px #D3D7DB;
+            gap: 10px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 15px;
+            margin-bottom: 20px;
+            color:#ffffff
+        }
+        .vantagens__globo img{
+            width: 40px;
+            height:39.26px;
+            align-self:flex-start ;
+            margin-left: 15px;
+            margin-top: 12px;
+        }
+        .vantagens__globo p{
+            width:204px;
+            height:255px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size:14px;
+            line-height:25.2px;
+            letter-spacing: 1%;
+            color: #000000;
+            gap: 16px;
+            margin-left: 10px;
+            margin-bottom: 0%;
+        }
+        .serviços{
+             width:290px;
+           height:1913px;
+            margin-left:15px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 0px;
+        }
+        .serviços h5{
+            width: 132px;
+            height: 38px;
+            font-family:"Montserrat",sans-serif;
+            font-weight:400;
+            font-size:32px;
+            line-height:38,4px;
+            color: #000000;
+            margin-top:30px ;
+            
+        }
+        .serviços button{
+            border: none;
+            background-color: transparent;
+        }
+        .serviços__conteudo{
+            width: 290px;
+            height:267px;
+            border-radius: 16px;
+            color: #FAFAFA;
+            margin-bottom: 10px;
+          
+            
+        }
+        .serviços__topo img{
+            border-top-right-radius: 16px;
+            border-top-left-radius: 16px;
+            width: 290px;
+            height: 148px;
+        }
+        .serviços__p-button{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 260px;
+            margin-left: 15px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 25.2px;
+            letter-spacing: 1%;
+            color:#845EF7
+        }
+        .serviços__p-button img{
+            width: 32px;
+            height:32px;
+        }
+        .serviços__texto{
+            width: 260px;
+            height: 50px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25.2px;
+            letter-spacing: 1%;
+            color: #000000;
+            margin-left: 15px;
+            margin-top:0px ;
+        }
+        .serviços__conteudo2{
+            width: 290px;
+            height:317px;
+            border-radius: 16px;
+            color: #FAFAFA;
+            margin-bottom: 10px;
+            
+             
+        }
+        .serviços__texto2{
+            width: 260px;
+            height: 100px;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25.2px;
+            letter-spacing: 1%;
+            color: #000000;
+            margin-left: 15px;
+            margin-top:0px ; 
+        }
+        .contato{
+            width: 320px;
+            background-color:#000000;
+        }
+        .contato p{
+            width: 290px;
+            height: 76px;
+            font-family: "Montserrat",sans-serif;
+            font-weight: 400;
+            font-size:32px ;
+            line-height: 38.4px;
+            color: #ffffff;
+            margin-left: 15px;
+        }
+        .contato input{
+            width: 290px;
+            height: 52px;
+            border-radius: 16px;
+            border: none;
+            margin-left: 13px;
+            background-color: #30373e;
+            margin-bottom: 12px;
+        }
+        .contato select{
+            width: 295px;
+            height: 52px;
+            border-radius: 16px;
+            border: none;
+            margin-left: 13px;
+            background-color: #30373e;
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25.2px;
+            letter-spacing: 1%;
+            color: #ADB5BD;
+            padding: 14px;
+            margin-bottom: 12px;
+        }
+         ::placeholder{
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25.2px;
+            letter-spacing: 1%;
+            margin-left: 14px;
+            color:#ADB5BD ;
+            padding-left: 14px;
+        }
+        .botão__texto{
+          width: 290px;
+          height:32px ;
+          gap: 8px;
+          display: flex;
+          flex-direction: row;
+          padding:0px;
+          margin: 0%;
+          
+        }
+        .botão__texto input{
+            width: 24px;
+            height: 24px;
+            border: solid 1px;
+            gap: 4px;
+            margin-left: 15px;
+           
+          
+         }
+         .botão__texto p{
+            font-family: "Open Sans",sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 32px;
+            letter-spacing: 1%;
+            color: #ffffff;
+            margin-top: 1px;
+           padding-left: 0px;
+           margin-left: 0px;
+           
+           }
+           .contato button{
+            width: 290px;
+            height: 44px;
+            border-radius: 8px;
+            padding: 13px 32px 13px 32px;
+            gap: 10px;
+            border: none;
+            margin-top: 22px;
+            margin-left: 15px;
+            background-color: #845EF7;
+            font-family:"Montserrat",sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            align-items: center;
+            color:#ffffff ;
+            margin-bottom: 20px;
+           }
+           footer{
+            background-color: #000000;
+            display: flex;
+            flex-direction: column;
+           }
+            .texto-final{
+            width: 290px;
+            height: 250px;
+            margin-left: 15px;
+            font-family:"Open Sans",sans-serif ;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25.2px;
+            color:#ffffff;
+           }
+           .desing{
+            width: 106px;
+            height: 58px;
+            gap: 24px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+            margin-bottom: 0px;
+           }
+            .desing img{
+             width: 48px;
+             height: 40px;
+             margin-top: 10px;
+             padding-bottom: -1px;
+             margin-left: 30px;
+             margin-bottom: -1px;
+            }
+            .desing p{
+                width: 106.06px;
+                height: 13.33px;
+                font-family: "Open Sans",sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 18px;
+                color: #ffffff;
+                margin-top: -19px;
+                padding-top: 0px;
+            }
+            ul{
+                width: 140px;
+                height: 146px;
+                gap: 12px;
+                padding-left: 15px;
+            }
+            li{
+                font-family: "Open Sans",sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 18px;
+                list-style: none;
+                margin-top: 20px;
+                color: #ffffff;
+            }
+            .estilo1{
+                text-decoration: underline;
+                text-underline-position:under;
+            }
+            .estilo2{
+                text-decoration: underline;
+                text-underline-position:under;
+                color: #845EF7;
+            }
+            .sociais{
+              
+                height: 40px;
+                gap: 24px;
+                padding-top: 60px;
+                 margin-left: 15px;
+                flex-direction: row;
+                margin-bottom: 30px;
+               }
+               .sociais button{
+                border: none;
+                margin-right: 20px;
+            
+                background-color: transparent;
+              }
+               .sociais img{
+                width: 40px;
+                height: 40px;
+            }
+
+    
+     
+    
